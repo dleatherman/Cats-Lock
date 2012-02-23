@@ -8,8 +8,6 @@ else {
    catslock();
 }
 
-$(document).ajaxComplete(catslock);
-
 function catslock() {
 
    var imgs = document.getElementsByTagName('img'),
@@ -37,3 +35,10 @@ function catslock() {
    }
 
 }
+
+window.scroll(function(){
+    var height = $(window).height();
+    if ($(window).scrollTop() > $(document).height() - height ){
+      setTimeout(catslock, 2000);
+    }
+});
