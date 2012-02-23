@@ -36,9 +36,12 @@ function catslock() {
 
 }
 
-window.scroll(function(){
+
+$(window).scroll(function(){
     var height = $(window).height();
     if ($(window).scrollTop() > $(document).height() - height ){
-      setTimeout(catslock, 2000);
+      if( height != $(window).height()) {
+         catslock();
+      }
     }
 });
