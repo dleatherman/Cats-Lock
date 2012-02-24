@@ -10,4 +10,6 @@ The greatest invention since sliced bread, the cats lock key will revolutionize 
 
 ####Why you need this
 
-Say you're browsing Pinterest like you do everyday, and all the sudden you feel discouraged by all the items you'll never be able to afford.
+Say you're browsing Pinterest like you do everyday, and all the sudden you feel discouraged by all the items you'll never be able to afford. Press the Cats Lock bookmarklet and viola, you can be happy with the content on the web once again.
+
+<http://danleatherman.com/catslock>
