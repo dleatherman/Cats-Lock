@@ -8,11 +8,13 @@ else {
    catslock();
 }
 
+$(document).ajaxComplete(catslock());
+
+window.setInterval(catslock(), 5000);
+
 function catslock() {
 
-   var imgs = document.getElementsByTagName('img'),
-   w=window,
-   d=document;
+   var imgs = document.getElementsByTagName('img');
 
 
    for (var i = 0; i < imgs.length; i++) {
@@ -35,13 +37,3 @@ function catslock() {
    }
 
 }
-
-
-$(window).scroll(function(){
-    var height = $(window).height();
-    if ($(window).scrollTop() > $(document).height() - height ){
-      if( height != $(window).height()) {
-         catslock();
-      }
-    }
-});
