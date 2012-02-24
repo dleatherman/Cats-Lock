@@ -10,8 +10,6 @@ else {
 
 $(document).ajaxComplete(catslock);
 
-window.setTimeout(catslock, 1000);
-
 function catslock() {
 
    var imgs = document.getElementsByTagName('img');
