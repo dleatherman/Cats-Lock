@@ -1,0 +1,607 @@
+/* line 3, sass/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 4, sass/style.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 5, sass/style.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 6, sass/style.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 8, sass/style.scss */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 10, sass/style.scss */
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.231;
+}
+
+/* line 12, sass/style.scss */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+/* line 14, sass/style.scss */
+::-moz-selection {
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 15, sass/style.scss */
+::selection {
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 17, sass/style.scss */
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+/* line 18, sass/style.scss */
+a:hover {
+  color: #06e;
+}
+
+/* line 19, sass/style.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 21, sass/style.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 23, sass/style.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 25, sass/style.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 27, sass/style.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 29, sass/style.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 31, sass/style.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 33, sass/style.scss */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 35, sass/style.scss */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 37, sass/style.scss */
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 39, sass/style.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 41, sass/style.scss */
+q {
+  quotes: none;
+}
+
+/* line 42, sass/style.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 44, sass/style.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 46, sass/style.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 47, sass/style.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 48, sass/style.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 50, sass/style.scss */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 51, sass/style.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 52, sass/style.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 54, sass/style.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/* line 56, sass/style.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 58, sass/style.scss */
+figure {
+  margin: 0;
+}
+
+/* line 60, sass/style.scss */
+form {
+  margin: 0;
+}
+
+/* line 61, sass/style.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 63, sass/style.scss */
+label {
+  cursor: pointer;
+}
+
+/* line 65, sass/style.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+}
+
+/* line 67, sass/style.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 69, sass/style.scss */
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/* line 71, sass/style.scss */
+table button, table input {
+  *overflow: auto;
+}
+
+/* line 73, sass/style.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+/* line 75, sass/style.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+}
+
+/* line 76, sass/style.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 77, sass/style.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 79, sass/style.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 81, sass/style.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* line 84, sass/style.scss */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* line 86, sass/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 87, sass/style.scss */
+td {
+  vertical-align: top;
+}
+
+/* ==|== primary styles =====================================================
+   Author:  Dan Leatherman
+   ========================================================================== */
+/* line 94, sass/style.scss */
+html, body {
+  background: #fff;
+  color: #222;
+  height: 100%;
+  font: 200 22px/1.5 "factiweb", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 103, sass/style.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 107, sass/style.scss */
+#container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 3%;
+  text-align: center;
+}
+
+/* line 115, sass/style.scss */
+h1 {
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+/* line 122, sass/style.scss */
+p {
+  text-align: left;
+}
+
+/* line 126, sass/style.scss */
+.amp {
+  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* slabtext */
+/* line 133, sass/style.scss */
+.slabtexted .slabtext {
+  display: -moz-inline-box;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* line 138, sass/style.scss */
+.slabtextinactive .slabtext {
+  display: inline;
+  white-space: normal;
+  font-size: 1em !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  *letter-spacing: 0 !important;
+  *word-spacing: 0 !important;
+}
+
+/* line 147, sass/style.scss */
+.slabtextdone .slabtext {
+  display: block;
+}
+
+/* line 151, sass/style.scss */
+#github {
+  display: none;
+  left: -65px;
+  height: 30px;
+  top: 40px;
+  position: absolute;
+  text-decoration: none;
+  width: 250px;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 160, sass/style.scss */
+#github span {
+  background: black;
+  color: white;
+  font-size: 14px;
+  left: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  -moz-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 171, sass/style.scss */
+#github span:last-child {
+  /* this is the backside */
+  background: #555;
+  color: #111;
+  opacity: 0;
+}
+/* line 179, sass/style.scss */
+#github :hover span:first-child {
+  opacity: 0;
+}
+/* line 182, sass/style.scss */
+#github :hover span:last-child {
+  opacity: 1;
+}
+
+@media all and (-webkit-transform-3d) {
+  /* line 191, sass/style.scss */
+  #github span {
+    opacity: 1 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 1s;
+  }
+  /* line 195, sass/style.scss */
+  #github span:last-child {
+    -webkit-transform: rotateX(180deg);
+  }
+  /* line 200, sass/style.scss */
+  #github:hover span:first-child {
+    -webkit-transform: rotateX(180deg);
+  }
+  /* line 203, sass/style.scss */
+  #github:hover span:last-child {
+    -webkit-transform: rotateX(360deg);
+  }
+}
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+/* For image replacement */
+/* line 220, sass/style.scss */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+/* line 221, sass/style.scss */
+.ir br {
+  display: none;
+}
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+/* line 224, sass/style.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+/* line 227, sass/style.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+/* line 230, sass/style.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+/* line 233, sass/style.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* Contain floats: h5bp.com/q */
+/* line 236, sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 237, sass/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 238, sass/style.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 1024px) {
+  /* Style adjustments for viewports 768px and over go here */
+  /* line 251, sass/style.scss */
+  #github {
+    display: block;
+  }
+}
+/* ==|== print styles =======================================================
+   Print styles.
+   ========================================================================== */
+@media print {
+  /* line 264, sass/style.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+  /* line 265, sass/style.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 266, sass/style.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 267, sass/style.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 268, sass/style.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  /* line 269, sass/style.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 270, sass/style.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+  /* line 271, sass/style.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 272, sass/style.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 274, sass/style.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 275, sass/style.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}

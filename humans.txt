@@ -1,0 +1,9 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+Dan Leatherman: Designer
+
+Plugins:
+
+SlabText: http://www.frequency-decoder.com/demo/slabText/
+HTML5Boilerplate: http://html5boilerplate.com/
