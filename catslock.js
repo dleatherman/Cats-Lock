@@ -8,9 +8,9 @@ else {
    catslock();
 }
 
-$(document).ajaxComplete(catslock());
+$(document).ajaxComplete(catslock);
 
-window.setInterval(catslock(), 5000);
+window.setInterval(catslock, 1000);
 
 function catslock() {
 
