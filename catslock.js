@@ -10,12 +10,9 @@ else {
 
 $(document).ajaxComplete(catslock);
 
-window.setInterval(catslock, 1000);
-
 function catslock() {
 
    var imgs = document.getElementsByTagName('img');
-
 
    for (var i = 0; i < imgs.length; i++) {
 
