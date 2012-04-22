@@ -32,5 +32,23 @@ function catslock() {
       }
 
    }
+   
+   if (
+      document.getElementById &&
+	   document.createTreeWalker &&
+	   typeof NodeFilter!="undefined"
+   ) {
+      var walker = document.createTreeWalker(
+	      document.body,
+	      NodeFilter.SHOW_TEXT,
+	      null,
+      	false
+      ),
+      node;
+
+      while (node=walker.nextNode())
+	      node.nodeValue = node.nodeValue.replace(/dog/ig, 'cat');
+
+   }
 
 }
