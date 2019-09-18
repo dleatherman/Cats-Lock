@@ -12,4 +12,8 @@ The greatest invention since sliced bread, the cats lock key will revolutionize 
  
 Say you're browsing Pinterest like you do everyday, and all the sudden you feel discouraged by all the items you'll never be able to afford. Press the Cats Lock bookmarklet and viola, you can be happy with the content on the web once again.
 
+**This repository is out of date and no longer maintained**
+
+## Email [dleatherman@gmail.com](mailto:dleatherman@gmail.com) if you'd like to take over
+
 <http://dleatherman.github.com/Cats-Lock/>
