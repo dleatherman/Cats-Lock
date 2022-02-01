@@ -16,4 +16,4 @@ Say you're browsing Pinterest like you do everyday, and all the sudden you feel 
 
 ## Email [dleatherman@gmail.com](mailto:dleatherman@gmail.com) if you'd like to take over
 
-<http://dleatherman.github.com/Cats-Lock/>
+<https://dleatherman.github.io/Cats-Lock/>
