@@ -25,7 +25,7 @@ function catslock() {
         var h = imgs[i].height, w = imgs[i].width;
 
         // change img src to placekitten image with same width and height
-        imgs[i].src = 'http://placekitten.com/' + w + '/' + h;
+        imgs[i].src = 'https://www.placecats.com/' + w + '/' + h;
 
         // add class to skip next time the function is run
         imgs[i].className = 'cats-locked';
